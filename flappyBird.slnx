@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="flappyBird/flappyBird.vcxproj" Id="119dd63a-322a-483d-8ec9-06f815cb3950" />
+</Solution>
