@@ -8,7 +8,7 @@ int main() {
 	sf::RenderWindow window(sf::VideoMode({ screen_width, screen_height }), "Flappy Bird", sf::Style::Titlebar | sf::Style::Close);
 	window.setFramerateLimit(60);
 
-	const float gravity = 1.2f;
+	const float gravity = 0.8f;
 
 	sf::Texture flappyBirdTexture;
 	if (!flappyBirdTexture.loadFromFile("flappybirdtxtr.png")) {
@@ -36,7 +36,7 @@ int main() {
 			}
 			if (const auto* keyPressed = event->getIf<sf::Event::KeyPressed>()) {
 				if (keyPressed->code == sf::Keyboard::Key::Space) {
-					flappyBird_y_speed = -20.f;
+					flappyBird_y_speed = -15.f;
 				}
 			}
 		}
