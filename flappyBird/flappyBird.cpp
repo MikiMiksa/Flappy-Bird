@@ -50,7 +50,7 @@ int main() {
 
 		window.clear(sf::Color::Black);
 		window.draw(flappyBirdSprite);
-		window.draw(testPoint);
+		//window.draw(testPoint);
 		window.display();
 	}
 
